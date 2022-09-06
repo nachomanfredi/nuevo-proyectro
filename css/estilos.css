@@ -86,6 +86,7 @@
     border:solid 2px black ;
     padding: 10px;
     margin: 10px;
+    width: 310px;
 
     display: inline-block;
 }
@@ -99,8 +100,9 @@
 
 .tarjeta__letra { 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    text-align: center;
+    font-size: 18px;
+    text-align: justify;
+    color: black;
 
 }
 
@@ -134,56 +136,37 @@
 
 .tarjeta2 {
     border: solid 4px black;
-    padding: 10px;
-    margin: 130px;
-    left: 0px;
+    padding: 16px;
+    margin: 50px;
+    left: 20px;
     display: inline-block;
+    width: 400px;
+    height: 500px;
+    
     }
 
+.tarjeta2-grande {
+        border: solid 4px black;
+        padding: 5px;
+        margin: 100px;
+        left: 0px;
+        display: inline-block;
+        width: 800px;
+        height: 700px;
+        
+        }
+
 .tarjeta__foto2 {
-    width: 700px;
-    height: 700px;
+    width: 200px;
+    height: 200px;
 }
 
 .tarjeta__foto3 {
     width: 350px;
-    height: 350px;
+    height: 400px;
 }
 
-.grid {
-    display: grid;
-    grid-template-areas:
-    "birras birrras"
-    "ipa honney"
-    "stout weisse"
-    "cuatro cuatro";
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 2fr 2fr;
-}
 
-.birras {
-    grid-area: birras;
-}
-
-.ipa {
-    grid-area: ipa;
-}
-
-.honney {
-    grid-area: honney;
-}
-
-.stout {
-    grid-area: stout;
-}
-
-.weisse {
-    grid-area: weisse;
-}
-
-.cuatro {
-    grid-area: cuatro;
-}
 
 .fondo {
     background-image:url(https://i.pinimg.com/736x/c0/8e/31/c08e318f68544c54f12299c0246ae981.jpg) ;
@@ -203,6 +186,27 @@
     color: black;
 
 }
+.Foto__Resi {
+    width: 600px;
+    height: 700px;
+    
+}
+
+.Mapa {
+    width: 300px;
+    height: 225px;
+}
+
+.tarjeta__contacto {
+    border:solid 2px black ;
+    padding: 20px;
+    margin: 40px;
+    width: 400px;
+    height: 350px;
+
+    display: inline-block;
+}
+
 
 @media screen and (max-width: 600px) {
     
@@ -255,6 +259,63 @@
 
     display: inline-block;
 }
+
+.Foto__Resi {
+    width: 300px;
+    height: 400px;
+    
+}
+
+.nosotros-titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    
+
+}
+
+.tarjeta__contacto {
+    border:solid 2px black ;
+    padding: 20px;
+    margin: 40px;
+    width: 350px;
+    height: 350px;
+
+    display: inline-block;
+}
+
+.margen{
+    margin: 120px;
+}
+
+.tarjeta2 {
+    border: solid 4px black;
+    padding: 16px;
+    margin: 10px;
+   
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    
+    }
+
+.tarjeta2-grande {
+        border: solid 4px black;
+        padding: 5px;
+        margin: 5px;
+        left: 0px;
+        display: inline-block;
+        width: 350px;
+        height: 400px;
+        
+        }
+
+
+
+.tarjeta__foto3 {
+    width: 250px;
+    height: 300px;
+}
+
    
 }
    
